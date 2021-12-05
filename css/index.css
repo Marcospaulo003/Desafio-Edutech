@@ -1,0 +1,122 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #3F51B5;
+    color: white;
+}
+
+.section_texto {
+    padding-top: 2.5rem;
+}
+
+.titulo-pagina {
+    margin-left: 3.8rem;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.conteudo-texto {
+    display: flex;
+}
+
+.texto {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    padding-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 2.9rem;
+}
+
+.logo_edutech {  
+    padding-right: 2.5rem;
+    max-width: 200px;           
+    width: 100%;          
+    max-height: 150px;          
+    min-height: auto; 
+}
+
+#texto_parte_2 {
+    padding-top: 3rem;
+}
+
+.ancora {
+    color: red;
+    font-weight: bold;
+}
+
+iframe {
+    padding-top: 3.5rem;
+    display: flex;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.beneficios_conteudo {
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 8%;
+}
+
+.box {
+    width: 50%;
+}
+
+.box h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.box p {
+    width: 70%;
+    font-size: 22px;
+    padding-top: 2px;
+}
+
+.imagem-beneficio{
+    width: 20%;
+}
+
+@media (max-width: 999px) {
+    .titulo-pagina {
+        text-align: center;
+        margin-left: 0rem;
+    }
+
+    .conteudo-texto {
+        flex-direction: column;
+    }
+
+    .texto {
+        text-align: center;
+        margin-left: 2.9rem;
+        margin-right: 2.9rem;
+    }
+
+    .logo_edutech {
+        padding-top: 2.5rem;
+        padding-right: 0rem;
+        margin: auto;
+        max-width: 50%;           
+        width: 100%;          
+        max-height: 50%;          
+        min-height: auto; 
+    }
+
+    iframe {
+        margin-left: 0;
+        width: 100vw;
+    }
+
+    .beneficios_conteudo {
+        margin-left: 0%;
+        flex-direction: column;
+    }
+
+    .box {
+        margin: 1rem auto;
+    }
+
+    .box p {
+        padding-top: 2px;
+        width: 100%;
+    }
+}

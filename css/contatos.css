@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto', sans-serif;
+	background: #3F51B5;
+}
+
+.section-pagina {
+	box-shadow: 0 10px 10px 10px #00000020;
+    width: 50%;
+    margin: auto;
+	border-radius: 30px;
+	background: white;
+	margin-bottom: 5rem;
+}
+
+.imagem_contato {
+	display: flex;
+	margin-left: 28%;
+	width: 45%;
+}
+
+.titulo_contato {
+	padding-left: 2.7rem;
+	padding-top: 2.5rem;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.texto_contato {
+	padding-left: 2.9rem;
+	width: 80%;
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+/*Formulario Para Contato*/
+
+.informações {
+	margin-top: 2.6rem;
+	margin-left: 25%;
+}
+
+.opções {
+	margin-top: 1rem;
+	margin-left: 25%;
+	padding-bottom: 2.6rem;
+}
+
+.contato_informacoes {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+    border: solid 2px black;
+    border-radius: 7px;
+	opacity: 0.6;
+	transition: 0.6s;
+}
+
+.input-padrao:hover {
+	opacity: 1;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.opcões_titulo {
+	text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.opcões {
+    font-weight: bold;
+}
+
+.enviar {
+	width: 60%;
+	margin-top: 1rem;
+	padding: 10px 0px;
+	background: #066924;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #04531c;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 15px 8px;
+}
+
+@media (max-width: 999px) {
+    .section-pagina {
+        width: 100vw;
+		box-shadow: none;
+    }
+
+	.imagem_contato {
+		width: 100%;
+		margin-left: 0;
+	}
+
+    .opcões_titulo {
+		font-size: 23px;
+    }
+}

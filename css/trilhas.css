@@ -1,0 +1,108 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #3F51B5;
+    color: white;
+}
+
+.background {
+    color: white;
+    background: #303F9F;
+    padding-bottom: 1.9rem;
+}
+
+.geral {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+}
+
+.titulo_pagina {
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.titulo_trilhas {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.box {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+    border: solid 1px transparent;
+    border-radius: 10%;
+    background: #303F9F;
+    box-shadow:  10px 10px 10px #00000020;
+}
+
+.lado-a-lado {
+    display: flex;
+}
+
+.box h2{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 15px;
+    padding: 10px 15px;
+    border: 2px solid #3F51B5;
+    border-radius: 10px;
+    transition: 1.5s;
+}
+
+.btn:hover {
+    font-size: 12px;
+    background: #3F51B5;
+}
+
+.imagem_trilhas {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: auto;
+}
+
+@media (max-width: 999px) {
+    .geral {
+        text-align: center;
+        padding-bottom: 0;
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .conteudo_trilha_titulo {
+        margin-left: 2rem;
+    }
+
+    .titulo_trilhas {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .lado-a-lado {
+        flex-direction: column;
+    }
+
+    .box {
+        margin: 1rem auto;
+    }
+}

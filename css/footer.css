@@ -1,0 +1,52 @@
+.footer {
+    padding: 40px 0;
+    background-color: #111;
+}
+
+.social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #fff;
+}
+
+.social a {
+    font-size: 24px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    transition: 0.6s
+}
+
+.social a:hover {
+    opacity: 0.5;
+}
+
+.footer ul {
+    text-align: center;
+}
+
+.footer ul a {
+    color: #fff;
+    transition: 0.6s;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.footer ul li a:hover{
+    opacity: 0.5;
+}
+
+.copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
